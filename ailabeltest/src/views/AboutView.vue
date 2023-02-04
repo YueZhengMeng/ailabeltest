@@ -1,18 +1,19 @@
 <template>
   <div class="about">
     <h1>This is an about page</h1>
-    <ailabel/>
+    <annotation/>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import ailabel from '@/components/ailabel.vue'
+// import ailabel from '@/components/ailabel.vue'
+import annotation from '@/components/annotation.vue'
 
 export default {
   name: 'AboutView',
   components: {
-    ailabel
+    annotation
   }
 }
 </script>

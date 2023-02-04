@@ -1,0 +1,136 @@
+{
+  "1": {
+    "newalllText": [
+      {
+        "props": {
+          "name": "text"
+        },
+        "type": "TEXT",
+        "style": {
+          "opacity": 1,
+          "strokeStyle": "#D2691E",
+          "background": true,
+          "fontColor": "#0f0",
+          "fillStyle": "#F4A460",
+          "font": "normal 12px Arial",
+          "textAlign": "left",
+          "textBaseline": "bottom",
+          "globalAlpha": 1
+        },
+        "textInfo": {
+          "text": "elongpaox",
+          "position": {
+            "x": 1042.9613095238094,
+            "y": 363.2886904761905
+          },
+          "offset": {
+            "x": -10,
+            "y": -10
+          }
+        },
+        "id": "label-text-id-1675434047706"
+      },
+      {
+        "props": {
+          "name": "text",
+          "textId": "label-text-id-1675434201516",
+          "deleteMarkerId": "label-marker-id-1675434201516"
+        },
+        "type": "TEXT",
+        "style": {
+          "opacity": 1,
+          "strokeStyle": "#D2691E",
+          "background": true,
+          "fontColor": "#0f0",
+          "fillStyle": "#F4A460",
+          "font": "normal 12px Arial",
+          "textAlign": "left",
+          "textBaseline": "bottom",
+          "globalAlpha": 1
+        },
+        "textInfo": {
+          "text": "elongpaox",
+          "position": {
+            "x": 139.46104142801528,
+            "y": 255.43261167389568
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        "id": "label-text-id-1675434201516"
+      }
+    ],
+    "newallFeatures": [
+      {
+        "props": {
+          "name": "POLYGON",
+          "textId": "label-text-id-1675434047706",
+          "deleteMarkerId": "label-marker-id-1675434047706"
+        },
+        "type": "POLYGON",
+        "style": {
+          "opacity": 1,
+          "fillStyle": "rgba(255, 0, 0, 0)",
+          "lineWidth": 1,
+          "strokeStyle": "#00f"
+        },
+        "shape": {
+          "points": [
+            {
+              "x": 1314.1666666666667,
+              "y": 181.92708333333334
+            },
+            {
+              "x": 1824.5833333333333,
+              "y": 421.51041666666663
+            },
+            {
+              "x": 1095.4166666666665,
+              "y": 674.1145833333334
+            },
+            {
+              "x": 991.25,
+              "y": 424.1145833333333
+            },
+            {
+              "x": 331.0937500000001,
+              "y": 478.80208333333326
+            },
+            {
+              "x": 973.0208333333334,
+              "y": 247.03125
+            },
+            {
+              "x": 771.1979166666667,
+              "y": 115.52083333333336
+            }
+          ]
+        },
+        "id": "1675434047706"
+      },
+      {
+        "props": {
+          "name": "RECT",
+          "textId": "label-text-id-1675434201516",
+          "deleteMarkerId": "label-marker-id-1675434201516"
+        },
+        "type": "RECT",
+        "style": {
+          "opacity": 1,
+          "fillStyle": "rgba(255, 0, 0, 0)",
+          "lineWidth": 1,
+          "strokeStyle": "#00f"
+        },
+        "shape": {
+          "x": 139.46104142801528,
+          "y": 255.43261167389568,
+          "width": 231.20112164360665,
+          "height": 481.4922441568689
+        },
+        "id": "1675434201516"
+      }
+    ]
+  }
+}
