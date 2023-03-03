@@ -266,7 +266,7 @@
 </template>
 
 <script>
-import AILabel from 'ailabel'
+import AILabel from '@/components/ailabel.vue'
 import { toRaw } from '@vue/reactivity'
 export default {
   name: 'AILabel',
@@ -281,14 +281,14 @@ export default {
       imgList: [
         {
           id: 1,
-          src: require('@/assets/images/bg.jpg'),
+          src: require('@/assets/images/delicon.jpg'),
           width: 1920,
           height: 1080,
           zoom: 5000
         },
         {
           id: 2,
-          src: require('@/assets/images/bg.jpg'),
+          src: require('@/assets/images/delicon.jpg'),
           width: 1920,
           height: 1080,
           zoom: 4500
@@ -296,7 +296,7 @@ export default {
       ],
       drawerFlag: false,
       formLabelAlign: {
-        input: '请输入需要标注的文字！',
+        input: 'elongpaox',
         borderwidth: 1,
         bordercolor: '#00f',
         fontColor: '#0f0',
@@ -576,7 +576,7 @@ export default {
           const gFirstMarker = new AILabel.Marker(
             markerId, // id
             {
-              src: require('@/assets/deleteicon.png'),
+              src: require('@/assets/images/delicon.jpg'),
               position: feature.getPoints()[1], // 矩形右上角
               offset: {
                 x: -35,
@@ -601,7 +601,7 @@ export default {
           const gFirstMarker = new AILabel.Marker(
             markerId, // id
             {
-              src: require('@/assets/deleteicon.png'),
+              src: require('@/assets/images/delicon.jpg'),
               position: this.getCenter(feature.shape.points), // 矩形右上角
               offset: {
                 x: 0,
@@ -858,13 +858,11 @@ export default {
     z-index: 999;
     transform: translate(0%, -50%);
     > li {
-      width: 50px;
+      width: 15px;
       height: 50px;
       display: flex;
       align-items: center;
       justify-content: center;
-      //自定义鼠标指针样式
-      //svg {cursor: url($mouse-link), pointer;}
     }
   }
   #map {
